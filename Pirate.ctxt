@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Pirate
+comment0.text=\r\n\ The\ Pirate\ has\ kidnapped\ the\ princess\ and\ wants\ to\ destroy\ the\ main\ character\!\r\n\ \r\n\ @author\ Anthony\ Neeser\ &\ Benjamin\ Presley\r\n\ @version\ 5/10/2018\r\n
+comment1.params=angry
+comment1.target=Pirate(boolean)
+comment1.text=\r\n\ Pirate\ constructor\ sets\ initial\ image,\ and\ sets\ angry\ to\ value\ of\ variable\ passed\ to\ constructor.\ In\ Pirate's\ case,\ he's\ angry\ no\ matter\ what.\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Pirate\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ monitor()
+comment3.text=\r\n\ Checks\ for\ player\ attack\ collisions,\ sets\ angry\ variable\ (if\ not\ done\ already),\ sets\ MainWorld.pirateDead\ to\ 1\ and\ removes\ this\ at\ 0\ health,\ and\ passes\ variables\ to\ NPC.\r\n
+numComments=4

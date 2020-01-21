@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ShopDialog
+comment0.text=\r\n\ Shop\ dialog\ for\ displaying\ text\ and\ numbers\ in\ Shop.\ \r\n\ \r\n\ @author\ Anthony\ Neeser\r\n\ @version\ 5/6/18\r\n
+comment1.params=price\ gold\ fG\ bG
+comment1.target=ShopDialog(int,\ java.lang.String,\ greenfoot.Color,\ greenfoot.Color)
+comment1.text=\r\n\ Constructor\ for\ displaying\ shop\ prices.\ \r\n
+comment2.params=text\ fG\ bG
+comment2.target=ShopDialog(java.lang.String,\ greenfoot.Color,\ greenfoot.Color)
+comment2.text=\r\n\ Constructor\ for\ displaying\ shop\ text.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ DialogBox\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=4

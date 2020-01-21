@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=HealthPotionIcon
+comment0.text=\r\n\ Health\ potion\ icon\ is\ a\ stand\ in\ for\ a\ health\ potion.\ If\ clicked\ in\ the\ shop,\ it\ can\ add\ a\ \r\n\ health\ potion\ to\ your\ inventory.\ \r\n\ \r\n\ @author\ Anthony\ Neeser\ (Art\ by\ Ben\ Presley)\r\n\ @version\ 5/7/18\r\n
+comment1.params=size
+comment1.target=HealthPotionIcon(int)
+comment1.text=\r\n\ Health\ potion\ icon\ constructor\ sets\ image\ for\ health\ potion\ icon.\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ HealthPotionIcon\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ buyOrUseHealthPotion()
+comment3.text=\r\n\ If\ clicked\ in\ shop,\ the\ HealthPotionIcon\ will\ add\ one\ health\ potion\ to\ your\ inventory,\ if\ you\ have\ enough\ gold\r\n\ and\ you\ have\ less\ than\ 5\ health\ potions\ stocked.\ If\ you\ press\ escape\ HealthPotionIcon\ is\ removed\ from\ the\ screen.\ \r\n
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BlackKnight
+comment0.text=\r\n\ The\ Black\ Knight\ wants\ to\ destroy\ the\ main\ character\!\r\n\ \r\n\ @author\ Anthony\ Neeser\r\n\ @version\ 4/30/18\r\n
+comment1.params=angry
+comment1.target=BlackKnight(boolean)
+comment1.text=\r\n\ BlackKnight\ constructor\ sets\ initial\ image,\ and\ sets\ angry\ to\ value\ of\ variable\ passed\ to\ constructor.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ BlackKnight\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ monitor()
+comment3.text=\r\n\ Checks\ for\ player\ attack\ collisions,\ sets\ angry\ variable\ (if\ not\ done\ already),\ checks\ if\ under\ ice\ effect,\ removes\ this\ at\ 0\ health,\ and\ passes\ variables\ to\ NPC\r\n
+numComments=4

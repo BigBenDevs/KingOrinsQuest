@@ -1,0 +1,15 @@
+
+left1= new GreenfootImage("/char/_Left1.png");
+left2= new GreenfootImage("/char/_Left2.png");
+left= new GreenfootImage("/char/_Left_Standing.png");
+right1= new GreenfootImage("/char/_Right1.png");
+right2= new GreenfootImage("/char/_Right2.png");
+right= new GreenfootImage("/char/_Right_Standing.png");
+up1= new GreenfootImage("/char/_Up1.png");
+up2= new GreenfootImage("/char/_Up2.png");
+back= new GreenfootImage("/char/_Back.png");
+down1= new GreenfootImage("/char/_Down1.png");
+down2= new GreenfootImage("/char/_Down2.png");
+front= new GreenfootImage("/char/_Front.png");
+front.scale(width,height);
+setImage(front);

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Dialog
+comment0.text=\r\n\ Handles\ dialog\ generation\ for\ shop,\ world,\ death\ message,\ and\ information\ bar\ at\ bottom\ of\ screen.\r\n\ \r\n\ @author\ Anthony\ Neeser\r\n\ @version\ 5/6/18\r\n
+comment1.params=currentWorld\ text
+comment1.target=void\ generateDialog(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ NPC\ dialog.\ Use\ this\ to\ create\ npc\ communication.\ \r\n
+comment2.params=health\ mana\ armor\ ammo\ item\ item2\ gold\ world
+comment2.target=void\ generateDialog(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Player\ dialog.\ Displays\ health,\ arrows,\ gold,\ etc...\r\n
+comment3.params=text
+comment3.target=void\ instructions(java.lang.String)
+comment3.text=\r\n\ Instructions\ for\ play.\ \r\n
+comment4.params=text1\ text2\ text3
+comment4.target=void\ generateDialog(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ Instructions/death\ dialog\ generator.\r\n
+comment5.params=text\ item1Price\ item2Price\ item3Price\ item4Price\ item5Price\ item6Price\ escape
+comment5.target=void\ generateDialog(java.lang.String,\ int,\ int,\ int,\ int,\ int,\ int,\ java.lang.String)
+comment5.text=\r\n\ Shop\ item\ dialog\ box.\ Purchase\ items\ with\ this.\ \r\n
+numComments=6

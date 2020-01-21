@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CastleEntrance
+comment0.text=\r\n\ This\ class\ acts\ as\ a\ trigger\ for\ entering\ the\ Castle\r\n\ \r\n\ @author\ (Benjamin\ Presley)\ \r\n\ @version\ (04/30/18)\r\n
+comment1.params=
+comment1.target=CastleEntrance()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Barrier\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

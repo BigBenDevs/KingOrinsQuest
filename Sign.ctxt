@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Sign
+comment0.text=\r\n\ Signs\ help\ you\ navigate\ through\ the\ world.\ \r\n\ \r\n\ @author\ Matt\ Marler,\ Anthony\ Neeser\r\n\ @version\ 5/10/18\r\n
+comment1.params=
+comment1.target=Sign()
+comment1.text=\r\n\ Sign\ constructor.\ Sets\ image\ for\ sign.\ \r\n
+comment2.params=
+comment2.target=boolean\ signFar()
+comment2.text=\r\n\ Checks\ how\ close\ a\ player\ is\ to\ the\ sign\ object.\ \r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Sign\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n\ \r\n\ @author\ Matt\ Marler\ (Sign\ generation,\ sign\ content,\ sign\ placement).\r\n\ @author\ Anthony\ Neeser\ (Quadrant\ booleans).\r\n
+comment4.params=
+comment4.target=boolean\ genericWorldDialog()
+comment4.text=\r\n\ Checks\ if\ a\ generic\ dialog\ border\ is\ in\ the\ world.\ \r\n
+comment5.params=
+comment5.target=boolean\ worldDialog()
+comment5.text=\r\n\ Checks\ if\ a\ world\ dialog\ is\ in\ the\ world.\ \r\n
+comment6.params=
+comment6.target=boolean\ shopDialog()
+comment6.text=\r\n\ Checks\ if\ a\ shop\ dialog\ is\ in\ the\ world.\ \r\n
+numComments=7

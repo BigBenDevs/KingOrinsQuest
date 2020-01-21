@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=World3
+comment0.text=\r\n\ This\ world\ is\ one\ of\ many\ in\ this\ game.\r\n\ \r\n\ @author\ (Ben\ Presley),\ Anthony\ Neeser\r\n\ @version\ (5/8/2018)\r\n
+comment1.params=
+comment1.target=World3()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ World3.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ spawnPlayer()
+comment2.text=\r\n\ Controls\ the\ spawning\ position\ of\ player\ when\ transfering\ worlds.\r\n
+comment3.params=
+comment3.target=void\ reset()
+comment3.text=\r\n\ Upon\ starting\ the\ game,\ or\ if\ Player\ dies,\ this\ handles\ resetting\ the\ world\ to\ the\ starting\ zone.\ States\ are\ also\ set\ to\ initial\ values.\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Monitor\ world\ state.\r\n
+comment5.params=
+comment5.target=void\ setup()
+comment5.text=\r\n\ Setup\ handles\ enemy\ generation\ away\ from\ barriers.\r\n\ @author\ Anthony\ Neeser\r\n
+comment6.params=
+comment6.target=void\ prepare()
+comment6.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\r\n\ That\ is\:\ create\ the\ initial\ objects\ and\ add\ them\ to\ the\ world.\r\n
+numComments=7

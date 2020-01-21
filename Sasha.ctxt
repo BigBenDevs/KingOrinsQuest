@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Sasha
+comment0.text=\r\n\ Sasha\ is\ a\ resident\ of\ MainWorld.\ \r\n\ \r\n\ @author\ Anthony\ Neeser\r\n\ @version\ 4/30/18\r\n
+comment1.params=
+comment1.target=Sasha()
+comment1.text=\r\n\ Sasha\ constructor.\ Sets\ initial\ image.\r\n
+comment2.params=
+comment2.target=void\ dialog1()
+comment2.text=\r\n\ 1st\ dialog.\ \r\n
+comment3.params=
+comment3.target=void\ dialog2()
+comment3.text=\r\n\ 2nd\ dialog.\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act\ -\ do\ whatever\ the\ Villager\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PlayerArrow
+comment0.text=\r\n\ Arrows\ that\ can\ be\ shot\ by\ player.\ \r\n\ \r\n\ @author\ Anthony\ Neeser\r\n\ @version\ 4/30/18\r\n
+comment1.params=s\ r\ width\ height\ countdown
+comment1.target=PlayerArrow(int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ PlayerArrow\ constructor\ sets\ initial\ values\ for\ player's\ arrow.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ PlayerArrow\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

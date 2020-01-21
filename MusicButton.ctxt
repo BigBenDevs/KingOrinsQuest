@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=MusicButton
+comment0.text=\r\n\ Music\ Button\ is\ a\ visual\ mute\ button\ placed\ in\ the\ world\ to\ allow\ the\ player\ to\ mute\ the\ background\ music\r\n\ GREEN\ \=\ ON\r\n\ RED\ \=\ MUTED\r\n\ \r\n\ @author\ (Benjamin\ Presley)\ \r\n\ @version\ (04/30/18)\r\n
+comment1.params=
+comment1.target=MusicButton()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ MusicButton\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ buttonClick()
+comment3.text=\r\n\ Check\ if\ the\ button\ waas\ clicked.\ \ If\ so,\ either\ mute\ or\ un-mute.\ \ \r\n\ Change\ global\ mute\ variable\ depending\ on\ muted\ or\ un-muted.\r\n
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=GoldChest
+comment0.text=\r\n\ Contains\ items\ to\ help\ you\ on\ your\ journey.\r\n\ \r\n\ @author\ (Matt\ Marler)\ \r\n\ @version\ (5/10/18)\r\n
+comment1.params=width\ height
+comment1.target=GoldChest(int,\ int)
+comment2.params=
+comment2.target=boolean\ chestFar()
+comment3.params=
+comment3.target=void\ interact()
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act\ -\ do\ whatever\ the\ TreasureChest\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=5

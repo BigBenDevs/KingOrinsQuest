@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Treebase
+comment0.text=\r\n\ This\ is\ the\ tree\ base\ sprite\ sheet\ constructor\ class.\ \ This\ is\ used\ so\ that\ we\ can\ designate\ the\ base\ of\r\n\ the\ tree\ object\ as\ something\ that\ needs\ to\ stay\ BEHIND\ the\ player/nps's.\ \ \r\n\ \r\n\ @author\ (Benjamin\ Presley)\ \r\n\ @version\ (04/26/2018)\r\n
+comment1.params=
+comment1.target=Treebase()
+numComments=2

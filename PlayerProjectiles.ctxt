@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PlayerProjectiles
+comment0.text=\r\n\ Projectile\ handles\ when\ to\ remove\ each\ projectile\ subclasses'\ removal\ from\ world.\ \r\n\ \r\n\ @author\ Anthony\ Neeser\r\n\ @version\ 4/30/18\r\n
+comment1.params=timeFlying
+comment1.target=void\ removal(int)
+numComments=2

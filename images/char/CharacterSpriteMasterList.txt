@@ -1,0 +1,816 @@
+BlackKnight 			(Ambiguous)
+BlondScientist 			(Male)
+BlondWithSunglassesGuy  (Male)
+BlueCapGirl 			(Female)
+BlueSuit				(Male)
+BlueSuit2				(Male)
+BrownCoat				(Male)
+BrownHairBlueCoat		(Ambiguous)
+BrownMustache			(Male)
+BusinessPonytail		(Male)
+Chicken					(Animal)
+Commando				(Male)
+Cow						(Animal)
+Crow 					(Animal)
+Danzig					(Male)
+GirlScout 				(Female)
+Greaser					(Male)
+GreenLeotard 			(Female)
+GreenPants				(Male)
+GreenShirtGuy			(Male)
+Guerrilla				(Male)
+HeadbandGirl			(Female)
+HeadBandGirl2 			(Female)
+Hellhound 				(Animal)
+HotForTeacher			(Female)
+JenniferAniston			(Female)
+Llama					(Animal)
+LongBlackHair 			(Female)
+MustacheMan				(Male)
+NickelBack				(Male)
+NormalKnight			(Ambiguous)
+Nymph 					(Female)
+Pig						(Animal)
+Pink-BlackOutfit		(Female)
+Pink-BlueOutfit			(Female)
+PinkOutfit				(Female)
+Pirate					(Male)
+PurpleDress				(Female)
+RedBandana				(Ambiguous)
+RedBlueBandana 			(Female)
+RedDress 				(Female)
+RedHairGirl				(Female)
+RedJacket 				(Male)
+Sephiroth				(Male)
+Sheep					(Animal)
+Skeleman				(Ambiguous)
+WinterSoldier 			(Male)
+YellowVest 				(Ambiguous)
+
+
+BlackKnight
+left1= new GreenfootImage("char/BlackKnight/BlackKnight_Left1.png");
+left2= new GreenfootImage("char/BlackKnight/BlackKnight_Left2.png");
+left= new GreenfootImage("char/BlackKnight/BlackKnight_Left_Standing.png");
+right1= new GreenfootImage("char/BlackKnight/BlackKnight_Right1.png");
+right2= new GreenfootImage("char/BlackKnight/BlackKnight_Right2.png");
+right= new GreenfootImage("char/BlackKnight/BlackKnight_Right_Standing.png");
+up1= new GreenfootImage("char/BlackKnight/BlackKnight_Up1.png");
+up2= new GreenfootImage("char/BlackKnight/BlackKnight_Up2.png");
+back= new GreenfootImage("char/BlackKnight/BlackKnight_Back.png");
+down1= new GreenfootImage("char/BlackKnight/BlackKnight_Down1.png");
+down2= new GreenfootImage("char/BlackKnight/BlackKnight_Down2.png");
+front= new GreenfootImage("char/BlackKnight/BlackKnight_Front.png");
+setImage(front);
+
+
+BlondScientist
+left1= new GreenfootImage("char/BlondScientist/BlondScientist_Left1.png");
+left2= new GreenfootImage("char/BlondScientist/BlondScientist_Left2.png");
+left= new GreenfootImage("char/BlondScientist/BlondScientist_Left_Standing.png");
+right1= new GreenfootImage("char/BlondScientist/BlondScientist_Right1.png");
+right2= new GreenfootImage("char/BlondScientist/BlondScientist_Right2.png");
+right= new GreenfootImage("char/BlondScientist/BlondScientist_Right_Standing.png");
+up1= new GreenfootImage("char/BlondScientist/BlondScientist_Up1.png");
+up2= new GreenfootImage("char/BlondScientist/BlondScientist_Up2.png");
+back= new GreenfootImage("char/BlondScientist/BlondScientist_Back.png");
+down1= new GreenfootImage("char/BlondScientist/BlondScientist_Down1.png");
+down2= new GreenfootImage("char/BlondScientist/BlondScientist_Down2.png");
+front= new GreenfootImage("char/BlondScientist/BlondScientist_Front.png");
+setImage(front);
+
+
+BlondWithSunglassesGuy
+left1= new GreenfootImage("char/BlondWithSunglassesGuy/Blond_Left1.png");
+left2= new GreenfootImage("char/BlondWithSunglassesGuy/Blond_Left2.png");
+left= new GreenfootImage("char/BlondWithSunglassesGuy/Blond_Left_Standing.png");
+right1= new GreenfootImage("char/BlondWithSunglassesGuy/Blond_Right1.png");
+right2= new GreenfootImage("char/BlondWithSunglassesGuy/Blond_Right2.png");
+right= new GreenfootImage("char/BlondWithSunglassesGuy/Blond_Right_Standing.png");
+up1= new GreenfootImage("char/BlondWithSunglassesGuy/Blond_Up1.png");
+up2= new GreenfootImage("char/BlondWithSunglassesGuy/Blond_Up2.png");
+back= new GreenfootImage("char/BlondWithSunglassesGuy/Blond_Back.png");
+down1= new GreenfootImage("char/BlondWithSunglassesGuy/Blond_Down1.png");
+down2= new GreenfootImage("char/BlondWithSunglassesGuy/Blond_Down2.png");
+front= new GreenfootImage("char/BlondWithSunglassesGuy/Blond_Front.png");
+setImage(front);
+
+
+BlueCapGirl
+left1= new GreenfootImage("char/BlueCapGirl/BlueCap_Left1.png");
+left2= new GreenfootImage("char/BlueCapGirl/BlueCap_Left2.png");
+left= new GreenfootImage("char/BlueCapGirl/BlueCap_Left_Standing.png");
+right1= new GreenfootImage("char/BlueCapGirl/BlueCap_Right1.png");
+right2= new GreenfootImage("char/BlueCapGirl/BlueCap_Right2.png");
+right= new GreenfootImage("char/BlueCapGirl/BlueCap_Right_Standing.png");
+up1= new GreenfootImage("char/BlueCapGirl/BlueCap_Up1.png");
+up2= new GreenfootImage("char/BlueCapGirl/BlueCap_Up2.png");
+back= new GreenfootImage("char/BlueCapGirl/BlueCap_Back.png");
+down1= new GreenfootImage("char/BlueCapGirl/BlueCap_Down1.png");
+down2= new GreenfootImage("char/BlueCapGirl/BlueCap_Down2.png");
+front= new GreenfootImage("char/BlueCapGirl/BlueCap_Front.png");
+setImage(front);
+
+
+BlueSuit
+left1= new GreenfootImage("char/BlueSuit/BlueSuit_Left1.png");
+left2= new GreenfootImage("char/BlueSuit/BlueSuit_Left2.png");
+left= new GreenfootImage("char/BlueSuit/BlueSuit_Left_Standing.png");
+right1= new GreenfootImage("char/BlueSuit/BlueSuit_Right1.png");
+right2= new GreenfootImage("char/BlueSuit/BlueSuit_Right2.png");
+right= new GreenfootImage("char/BlueSuit/BlueSuit_Right_Standing.png");
+up1= new GreenfootImage("char/BlueSuit/BlueSuit_Up1.png");
+up2= new GreenfootImage("char/BlueSuit/BlueSuit_Up2.png");
+back= new GreenfootImage("char/BlueSuit/BlueSuit_Back.png");
+down1= new GreenfootImage("char/BlueSuit/BlueSuit_Down1.png");
+down2= new GreenfootImage("char/BlueSuit/BlueSuit_Down2.png");
+front= new GreenfootImage("char/BlueSuit/BlueSuit_Front.png");
+setImage(front);
+
+
+BlueSuit2
+left1= new GreenfootImage("char/BlueSuit2/BlueSuit2_Left1.png");
+left2= new GreenfootImage("char/BlueSuit2/BlueSuit2_Left2.png");
+left= new GreenfootImage("char/BlueSuit2/BlueSuit2_Left_Standing.png");
+right1= new GreenfootImage("char/BlueSuit2/BlueSuit2_Right1.png");
+right2= new GreenfootImage("char/BlueSuit2/BlueSuit2_Right2.png");
+right= new GreenfootImage("char/BlueSuit2/BlueSuit2_Right_Standing.png");
+up1= new GreenfootImage("char/BlueSuit2/BlueSuit2_Up1.png");
+up2= new GreenfootImage("char/BlueSuit2/BlueSuit2_Up2.png");
+back= new GreenfootImage("char/BlueSuit2/BlueSuit2_Back.png");
+down1= new GreenfootImage("char/BlueSuit2/BlueSuit2_Down1.png");
+down2= new GreenfootImage("char/BlueSuit2/BlueSuit2_Down2.png");
+front= new GreenfootImage("char/BlueSuit2/BlueSuit2_Front.png");
+setImage(front);
+
+
+BrownCoat
+left1= new GreenfootImage("char/BrownCoat/BrownCoat_Left1.png");
+left2= new GreenfootImage("char/BrownCoat/BrownCoat_Left2.png");
+left= new GreenfootImage("char/BrownCoat/BrownCoat_Left_Standing.png");
+right1= new GreenfootImage("char/BrownCoat/BrownCoat_Right1.png");
+right2= new GreenfootImage("char/BrownCoat/BrownCoat_Right2.png");
+right= new GreenfootImage("char/BrownCoat/BrownCoat_Right_Standing.png");
+up1= new GreenfootImage("char/BrownCoat/BrownCoat_Up1.png");
+up2= new GreenfootImage("char/BrownCoat/BrownCoat_Up2.png");
+back= new GreenfootImage("char/BrownCoat/BrownCoat_Back.png");
+down1= new GreenfootImage("char/BrownCoat/BrownCoat_Down1.png");
+down2= new GreenfootImage("char/BrownCoat/BrownCoat_Down2.png");
+front= new GreenfootImage("char/BrownCoat/BrownCoat_Front.png");
+setImage(front);
+
+
+BrownHairBlueCoat
+left1= new GreenfootImage("char/BrownHairBlueCoat/BrownHairBlueCoat_Left1.png");
+left2= new GreenfootImage("char/BrownHairBlueCoat/BrownHairBlueCoat_Left2.png");
+left= new GreenfootImage("char/BrownHairBlueCoat/BrownHairBlueCoat_Left_Standing.png");
+right1= new GreenfootImage("char/BrownHairBlueCoat/BrownHairBlueCoat_Right1.png");
+right2= new GreenfootImage("char/BrownHairBlueCoat/BrownHairBlueCoat_Right2.png");
+right= new GreenfootImage("char/BrownHairBlueCoat/BrownHairBlueCoat_Right_Standing.png");
+up1= new GreenfootImage("char/BrownHairBlueCoat/BrownHairBlueCoat_Up1.png");
+up2= new GreenfootImage("char/BrownHairBlueCoat/BrownHairBlueCoat_Up2.png");
+back= new GreenfootImage("char/BrownHairBlueCoat/BrownHairBlueCoat_Back.png");
+down1= new GreenfootImage("char/BrownHairBlueCoat/BrownHairBlueCoat_Down1.png");
+down2= new GreenfootImage("char/BrownHairBlueCoat/BrownHairBlueCoat_Down2.png");
+front= new GreenfootImage("char/BrownHairBlueCoat/BrownHairBlueCoat_Front.png");
+setImage(front);
+
+
+BrownMustache
+left1= new GreenfootImage("char/BrownMustache/BrownMustache_Left1.png");
+left2= new GreenfootImage("char/BrownMustache/BrownMustache_Left2.png");
+left= new GreenfootImage("char/BrownMustache/BrownMustache_Left_Standing.png");
+right1= new GreenfootImage("char/BrownMustache/BrownMustache_Right1.png");
+right2= new GreenfootImage("char/BrownMustache/BrownMustache_Right2.png");
+right= new GreenfootImage("char/BrownMustache/BrownMustache_Right_Standing.png");
+up1= new GreenfootImage("char/BrownMustache/BrownMustache_Up1.png");
+up2= new GreenfootImage("char/BrownMustache/BrownMustache_Up2.png");
+back= new GreenfootImage("char/BrownMustache/BrownMustache_Back.png");
+down1= new GreenfootImage("char/BrownMustache/BrownMustache_Down1.png");
+down2= new GreenfootImage("char/BrownMustache/BrownMustache_Down2.png");
+front= new GreenfootImage("char/BrownMustache/BrownMustache_Front.png");
+setImage(front);
+
+
+BusinessPonytail
+left1= new GreenfootImage("char/BusinessPonytail/BusinessPonytail_Left1.png");
+left2= new GreenfootImage("char/BusinessPonytail/BusinessPonytail_Left2.png");
+left= new GreenfootImage("char/BusinessPonytail/BusinessPonytail_Left_Standing.png");
+right1= new GreenfootImage("char/BusinessPonytail/BusinessPonytail_Right1.png");
+right2= new GreenfootImage("char/BusinessPonytail/BusinessPonytail_Right2.png");
+right= new GreenfootImage("char/BusinessPonytail/BusinessPonytail_Right_Standing.png");
+up1= new GreenfootImage("char/BusinessPonytail/BusinessPonytail_Up1.png");
+up2= new GreenfootImage("char/BusinessPonytail/BusinessPonytail_Up2.png");
+back= new GreenfootImage("char/BusinessPonytail/BusinessPonytail_Back.png");
+down1= new GreenfootImage("char/BusinessPonytail/BusinessPonytail_Down1.png");
+down2= new GreenfootImage("char/BusinessPonytail/BusinessPonytail_Down2.png");
+front= new GreenfootImage("char/BusinessPonytail/BusinessPonytail_Front.png");
+setImage(front);
+
+
+Chicken
+left1= new GreenfootImage("/char/Chicken/Chicken_Left1.png");
+left2= new GreenfootImage("/char/Chicken/Chicken_Left2.png");
+left= new GreenfootImage("/char/Chicken/Chicken_Left_Standing.png");
+right1= new GreenfootImage("/char/Chicken/Chicken_Right1.png");
+right2= new GreenfootImage("/char/Chicken/Chicken_Right2.png");
+right= new GreenfootImage("/char/Chicken/Chicken_Right_Standing.png");
+up1= new GreenfootImage("/char/Chicken/Chicken_Up1.png");
+up2= new GreenfootImage("/char/Chicken/Chicken_Up2.png");
+back= new GreenfootImage("/char/Chicken/Chicken_Back.png");
+down1= new GreenfootImage("/char/Chicken/Chicken_Down1.png");
+down2= new GreenfootImage("/char/Chicken/Chicken_Down2.png");
+front= new GreenfootImage("/char/Chicken/Chicken_Front.png");
+setImage(front);
+
+
+Commando
+left1= new GreenfootImage("char/Commando/Commando_Left1.png");
+left2= new GreenfootImage("char/Commando/Commando_Left2.png");
+left= new GreenfootImage("char/Commando/Commando_Left_Standing.png");
+right1= new GreenfootImage("char/Commando/Commando_Right1.png");
+right2= new GreenfootImage("char/Commando/Commando_Right2.png");
+right= new GreenfootImage("char/Commando/Commando_Right_Standing.png");
+up1= new GreenfootImage("char/Commando/Commando_Up1.png");
+up2= new GreenfootImage("char/Commando/Commando_Up2.png");
+back= new GreenfootImage("char/Commando/Commando_Back.png");
+down1= new GreenfootImage("char/Commando/Commando_Down1.png");
+down2= new GreenfootImage("char/Commando/Commando_Down2.png");
+front= new GreenfootImage("char/Commando/Commando_Front.png");
+setImage(front);
+
+
+Cow
+left1= new GreenfootImage("/char/Cow/Cow_Left1.png");
+left2= new GreenfootImage("/char/Cow/Cow_Left2.png");
+left= new GreenfootImage("/char/Cow/Cow_Left_Standing.png");
+right1= new GreenfootImage("/char/Cow/Cow_Right1.png");
+right2= new GreenfootImage("/char/Cow/Cow_Right2.png");
+right= new GreenfootImage("/char/Cow/Cow_Right_Standing.png");
+up1= new GreenfootImage("/char/Cow/Cow_Up1.png");
+up2= new GreenfootImage("/char/Cow/Cow_Up2.png");
+back= new GreenfootImage("/char/Cow/Cow_Back.png");
+down1= new GreenfootImage("/char/Cow/Cow_Down1.png");
+down2= new GreenfootImage("/char/Cow/Cow_Down2.png");
+front= new GreenfootImage("/char/Cow/Cow_Front.png");
+setImage(front);
+
+
+Crow
+left1= new GreenfootImage("char/Crow/Crow_Left1.png");
+left2= new GreenfootImage("char/Crow/Crow_Left2.png");
+left= new GreenfootImage("char/Crow/Crow_Left_Standing.png");
+right1= new GreenfootImage("char/Crow/Crow_Right1.png");
+right2= new GreenfootImage("char/Crow/Crow_Right2.png");
+right= new GreenfootImage("char/Crow/Crow_Right_Standing.png");
+up1= new GreenfootImage("char/Crow/Crow_Up1.png");
+up2= new GreenfootImage("char/Crow/Crow_Up2.png");
+back= new GreenfootImage("char/Crow/Crow_Back.png");
+down1= new GreenfootImage("char/Crow/Crow_Down1.png");
+down2= new GreenfootImage("char/Crow/Crow_Down2.png");
+front= new GreenfootImage("char/Crow/Crow_Front.png");
+setImage(front);
+
+
+Danzig
+left1= new GreenfootImage("char/Danzig/Danzig_Left1.png");
+left2= new GreenfootImage("char/Danzig/Danzig_Left2.png");
+left= new GreenfootImage("char/Danzig/Danzig_Left_Standing.png");
+right1= new GreenfootImage("char/Danzig/Danzig_Right1.png");
+right2= new GreenfootImage("char/Danzig/Danzig_Right2.png");
+right= new GreenfootImage("char/Danzig/Danzig_Right_Standing.png");
+up1= new GreenfootImage("char/Danzig/Danzig_Up1.png");
+up2= new GreenfootImage("char/Danzig/Danzig_Up2.png");
+back= new GreenfootImage("char/Danzig/Danzig_Back.png");
+down1= new GreenfootImage("char/Danzig/Danzig_Down1.png");
+down2= new GreenfootImage("char/Danzig/Danzig_Down2.png");
+front= new GreenfootImage("char/Danzig/Danzig_Front.png");
+setImage(front);
+
+
+GirlScout
+left1= new GreenfootImage("char/GirlScout/GirlScout_Left1.png");
+left2= new GreenfootImage("char/GirlScout/GirlScout_Left2.png");
+left= new GreenfootImage("char/GirlScout/GirlScout_Left_Standing.png");
+right1= new GreenfootImage("char/GirlScout/GirlScout_Right1.png");
+right2= new GreenfootImage("char/GirlScout/GirlScout_Right2.png");
+right= new GreenfootImage("char/GirlScout/GirlScout_Right_Standing.png");
+up1= new GreenfootImage("char/GirlScout/GirlScout_Up1.png");
+up2= new GreenfootImage("char/GirlScout/GirlScout_Up2.png");
+back= new GreenfootImage("char/GirlScout/GirlScout_Back.png");
+down1= new GreenfootImage("char/GirlScout/GirlScout_Down1.png");
+down2= new GreenfootImage("char/GirlScout/GirlScout_Down2.png");
+front= new GreenfootImage("char/GirlScout/GirlScout_Front.png");
+setImage(front);
+
+
+Greaser
+left1= new GreenfootImage("char/Greaser/Greaser_Left1.png");
+left2= new GreenfootImage("char/Greaser/Greaser_Left2.png");
+left= new GreenfootImage("char/Greaser/Greaser_Left_Standing.png");
+right1= new GreenfootImage("char/Greaser/Greaser_Right1.png");
+right2= new GreenfootImage("char/Greaser/Greaser_Right2.png");
+right= new GreenfootImage("char/Greaser/Greaser_Right_Standing.png");
+up1= new GreenfootImage("char/Greaser/Greaser_Up1.png");
+up2= new GreenfootImage("char/Greaser/Greaser_Up2.png");
+back= new GreenfootImage("char/Greaser/Greaser_Back.png");
+down1= new GreenfootImage("char/Greaser/Greaser_Down1.png");
+down2= new GreenfootImage("char/Greaser/Greaser_Down2.png");
+front= new GreenfootImage("char/Greaser/Greaser_Front.png");
+setImage(front);
+
+
+GreenLeotard
+left1= new GreenfootImage("char/GreenLeotard/GreenLeotard_Left1.png");
+left2= new GreenfootImage("char/GreenLeotard/GreenLeotard_Left2.png");
+left= new GreenfootImage("char/GreenLeotard/GreenLeotard_Left_Standing.png");
+right1= new GreenfootImage("char/GreenLeotard/GreenLeotard_Right1.png");
+right2= new GreenfootImage("char/GreenLeotard/GreenLeotard_Right2.png");
+right= new GreenfootImage("char/GreenLeotard/GreenLeotard_Right_Standing.png");
+up1= new GreenfootImage("char/GreenLeotard/GreenLeotard_Up1.png");
+up2= new GreenfootImage("char/GreenLeotard/GreenLeotard_Up2.png");
+back= new GreenfootImage("char/GreenLeotard/GreenLeotard_Back.png");
+down1= new GreenfootImage("char/GreenLeotard/GreenLeotard_Down1.png");
+down2= new GreenfootImage("char/GreenLeotard/GreenLeotard_Down2.png");
+front= new GreenfootImage("char/GreenLeotard/GreenLeotard_Front.png");
+setImage(front);
+
+
+GreenPants
+left1= new GreenfootImage("char/GreenPants/GreenPants_Left1.png");
+left2= new GreenfootImage("char/GreenPants/GreenPants_Left2.png");
+left= new GreenfootImage("char/GreenPants/GreenPants_Left_Standing.png");
+right1= new GreenfootImage("char/GreenPants/GreenPants_Right1.png");
+right2= new GreenfootImage("char/GreenPants/GreenPants_Right2.png");
+right= new GreenfootImage("char/GreenPants/GreenPants_Right_Standing.png");
+up1= new GreenfootImage("char/GreenPants/GreenPants_Up1.png");
+up2= new GreenfootImage("char/GreenPants/GreenPants_Up2.png");
+back= new GreenfootImage("char/GreenPants/GreenPants_Back.png");
+down1= new GreenfootImage("char/GreenPants/GreenPants_Down1.png");
+down2= new GreenfootImage("char/GreenPants/GreenPants_Down2.png");
+front= new GreenfootImage("char/GreenPants/GreenPants_Front.png");
+setImage(front);
+
+
+GreenShirtGuy
+left1= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Left1.png");
+left2= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Left2.png");
+left= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Left_Standing.png");
+right1= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Right1.png");
+right2= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Right2.png");
+right= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Right_Standing.png");
+up1= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Up1.png");
+up2= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Up2.png");
+back= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Back.png");
+down1= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Down1.png");
+down2= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Down2.png");
+front= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Front.png");
+setImage(front);
+
+
+Guerrilla
+left1= new GreenfootImage("char/Guerrilla/Guerrilla_Left1.png");
+left2= new GreenfootImage("char/Guerrilla/Guerrilla_Left2.png");
+left= new GreenfootImage("char/Guerrilla/Guerrilla_Left_Standing.png");
+right1= new GreenfootImage("char/Guerrilla/Guerrilla_Right1.png");
+right2= new GreenfootImage("char/Guerrilla/Guerrilla_Right2.png");
+right= new GreenfootImage("char/Guerrilla/Guerrilla_Right_Standing.png");
+up1= new GreenfootImage("char/Guerrilla/Guerrilla_Up1.png");
+up2= new GreenfootImage("char/Guerrilla/Guerrilla_Up2.png");
+back= new GreenfootImage("char/Guerrilla/Guerrilla_Back.png");
+down1= new GreenfootImage("char/Guerrilla/Guerrilla_Down1.png");
+down2= new GreenfootImage("char/Guerrilla/Guerrilla_Down2.png");
+front= new GreenfootImage("char/Guerrilla/Guerrilla_Front.png");
+setImage(front);
+
+
+HeadbandGirl
+left1= new GreenfootImage("char/HeadbandGirl/HeadbandGirl_Left1.png");
+left2= new GreenfootImage("char/HeadbandGirl/HeadbandGirl_Left2.png");
+left= new GreenfootImage("char/HeadbandGirl/HeadbandGirl_Left_Standing.png");
+right1= new GreenfootImage("char/HeadbandGirl/HeadbandGirl_Right1.png");
+right2= new GreenfootImage("char/HeadbandGirl/HeadbandGirl_Right2.png");
+right= new GreenfootImage("char/HeadbandGirl/HeadbandGirl_Right_Standing.png");
+up1= new GreenfootImage("char/HeadbandGirl/HeadbandGirl_Up1.png");
+up2= new GreenfootImage("char/HeadbandGirl/HeadbandGirl_Up2.png");
+back= new GreenfootImage("char/HeadbandGirl/HeadbandGirl_Back.png");
+down1= new GreenfootImage("char/HeadbandGirl/HeadbandGirl_Down1.png");
+down2= new GreenfootImage("char/HeadbandGirl/HeadbandGirl_Down2.png");
+front= new GreenfootImage("char/HeadbandGirl/HeadbandGirl_Front.png");
+setImage(front);
+
+
+HeadBandGirl2
+left1= new GreenfootImage("char/HeadBandGirl2/HeadBandGirl2_Left1.png");
+left2= new GreenfootImage("char/HeadBandGirl2/HeadBandGirl2_Left2.png");
+left= new GreenfootImage("char/HeadBandGirl2/HeadBandGirl2_Left_Standing.png");
+right1= new GreenfootImage("char/HeadBandGirl2/HeadBandGirl2_Right1.png");
+right2= new GreenfootImage("char/HeadBandGirl2/HeadBandGirl2_Right2.png");
+right= new GreenfootImage("char/HeadBandGirl2/HeadBandGirl2_Right_Standing.png");
+up1= new GreenfootImage("char/HeadBandGirl2/HeadBandGirl2_Up1.png");
+up2= new GreenfootImage("char/HeadBandGirl2/HeadBandGirl2_Up2.png");
+back= new GreenfootImage("char/HeadBandGirl2/HeadBandGirl2_Back.png");
+down1= new GreenfootImage("char/HeadBandGirl2/HeadBandGirl2_Down1.png");
+down2= new GreenfootImage("char/HeadBandGirl2/HeadBandGirl2_Down2.png");
+front= new GreenfootImage("Hchar/eadBandGirl2/HeadBandGirl2_Front.png");
+setImage(front);
+
+
+Hellhound
+left1= new GreenfootImage("char/Hellhound/Hellhound_Left1.png");
+left2= new GreenfootImage("char/Hellhound/Hellhound_Left2.png");
+left= new GreenfootImage("char/Hellhound/Hellhound_Left_Standing.png");
+right1= new GreenfootImage("char/Hellhound/Hellhound_Right1.png");
+right2= new GreenfootImage("char/Hellhound/Hellhound_Right2.png");
+right= new GreenfootImage("char/Hellhound/Hellhound_Right_Standing.png");
+up1= new GreenfootImage("char/Hellhound/Hellhound_Up1.png");
+up2= new GreenfootImage("char/Hellhound/Hellhound_Up2.png");
+back= new GreenfootImage("char/Hellhound/Hellhound_Back.png");
+down1= new GreenfootImage("char/Hellhound/Hellhound_Down1.png");
+down2= new GreenfootImage("char/Hellhound/Hellhound_Down2.png");
+front= new GreenfootImage("char/Hellhound/Hellhound_Front.png");
+setImage(front);
+
+
+HotForTeacher
+left1= new GreenfootImage("char/HotForTeacher/HotForTeacher_Left1.png");
+left2= new GreenfootImage("char/HotForTeacher/HotForTeacher_Left2.png");
+left= new GreenfootImage("char/HotForTeacher/HotForTeacher_Left_Standing.png");
+right1= new GreenfootImage("char/HotForTeacher/HotForTeacher_Right1.png");
+right2= new GreenfootImage("char/HotForTeacher/HotForTeacher_Right2.png");
+right= new GreenfootImage("char/HotForTeacher/HotForTeacher_Right_Standing.png");
+up1= new GreenfootImage("char/HotForTeacher/HotForTeacher_Up1.png");
+up2= new GreenfootImage("char/HotForTeacher/HotForTeacher_Up2.png");
+back= new GreenfootImage("char/HotForTeacher/HotForTeacher_Back.png");
+down1= new GreenfootImage("char/HotForTeacher/HotForTeacher_Down1.png");
+down2= new GreenfootImage("char/HotForTeacher/HotForTeacher_Down2.png");
+front= new GreenfootImage("char/HotForTeacher/HotForTeacher_Front.png");
+setImage(front);
+
+
+JenniferAniston
+left1= new GreenfootImage("char/JenniferAniston/JenniferAniston_Left1.png");
+left2= new GreenfootImage("char/JenniferAniston/JenniferAniston_Left2.png");
+left= new GreenfootImage("char/JenniferAniston/JenniferAniston_Left_Standing.png");
+right1= new GreenfootImage("char/JenniferAniston/JenniferAniston_Right1.png");
+right2= new GreenfootImage("char/JenniferAniston/JenniferAniston_Right2.png");
+right= new GreenfootImage("char/JenniferAniston/JenniferAniston_Right_Standing.png");
+up1= new GreenfootImage("char/JenniferAniston/JenniferAniston_Up1.png");
+up2= new GreenfootImage("char/JenniferAniston/JenniferAniston_Up2.png");
+back= new GreenfootImage("char/JenniferAniston/JenniferAniston_Back.png");
+down1= new GreenfootImage("char/JenniferAniston/JenniferAniston_Down1.png");
+down2= new GreenfootImage("char/JenniferAniston/JenniferAniston_Down2.png");
+front= new GreenfootImage("char/JenniferAniston/JenniferAniston_Front.png");
+setImage(front);
+
+
+Llama
+left1= new GreenfootImage("/char/Llama/Llama_Left1.png");
+left2= new GreenfootImage("/char/Llama/Llama_Left2.png");
+left= new GreenfootImage("/char/Llama/Llama_Left_Standing.png");
+right1= new GreenfootImage("/char/Llama/Llama_Right1.png");
+right2= new GreenfootImage("/char/Llama/Llama_Right2.png");
+right= new GreenfootImage("/char/Llama/Llama_Right_Standing.png");
+up1= new GreenfootImage("/char/Llama/Llama_Up1.png");
+up2= new GreenfootImage("/char/Llama/Llama_Up2.png");
+back= new GreenfootImage("/char/Llama/Llama_Back.png");
+down1= new GreenfootImage("/char/Llama/Llama_Down1.png");
+down2= new GreenfootImage("/char/Llama/Llama_Down2.png");
+front= new GreenfootImage("/char/Llama/Llama_Front.png");
+setImage(front);
+
+
+LongBlackHair
+left1= new GreenfootImage("char/LongBlackHair/LongBlackHair_Left1.png");
+left2= new GreenfootImage("char/LongBlackHair/LongBlackHair_Left2.png");
+left= new GreenfootImage("char/LongBlackHair/LongBlackHair_Left_Standing.png");
+right1= new GreenfootImage("char/LongBlackHair/LongBlackHair_Right1.png");
+right2= new GreenfootImage("char/LongBlackHair/LongBlackHair_Right2.png");
+right= new GreenfootImage("char/LongBlackHair/LongBlackHair_Right_Standing.png");
+up1= new GreenfootImage("char/LongBlackHair/LongBlackHair_Up1.png");
+up2= new GreenfootImage("char/LongBlackHair/LongBlackHair_Up2.png");
+back= new GreenfootImage("char/LongBlackHair/LongBlackHair_Back.png");
+down1= new GreenfootImage("char/LongBlackHair/LongBlackHair_Down1.png");
+down2= new GreenfootImage("char/LongBlackHair/LongBlackHair_Down2.png");
+front= new GreenfootImage("char/LongBlackHair/LongBlackHair_Front.png");
+setImage(front);
+
+
+MustacheMan
+left1= new GreenfootImage("char/MustacheMan/MustacheMan_Left1.png");
+left2= new GreenfootImage("char/MustacheMan/MustacheMan_Left2.png");
+left= new GreenfootImage("char/MustacheMan/MustacheMan_Left_Standing.png");
+right1= new GreenfootImage("char/MustacheMan/MustacheMan_Right1.png");
+right2= new GreenfootImage("char/MustacheMan/MustacheMan_Right2.png");
+right= new GreenfootImage("char/MustacheMan/MustacheMan_Right_Standing.png");
+up1= new GreenfootImage("char/MustacheMan/MustacheMan_Up1.png");
+up2= new GreenfootImage("char/MustacheMan/MustacheMan_Up2.png");
+back= new GreenfootImage("char/MustacheMan/MustacheMan_Back.png");
+down1= new GreenfootImage("char/MustacheMan/MustacheMan_Down1.png");
+down2= new GreenfootImage("char/MustacheMan/MustacheMan_Down2.png");
+front= new GreenfootImage("char/MustacheMan/MustacheMan_Front.png");
+setImage(front);
+
+
+NickelBack
+left1= new GreenfootImage("char/NickelBack/NickelBack_Left1.png");
+left2= new GreenfootImage("char/NickelBack/NickelBack_Left2.png");
+left= new GreenfootImage("char/NickelBack/NickelBack_Left_Standing.png");
+right1= new GreenfootImage("char/NickelBack/NickelBack_Right1.png");
+right2= new GreenfootImage("char/NickelBack/NickelBack_Right2.png");
+right= new GreenfootImage("char/NickelBack/NickelBack_Right_Standing.png");
+up1= new GreenfootImage("char/NickelBack/NickelBack_Up1.png");
+up2= new GreenfootImage("char/NickelBack/NickelBack_Up2.png");
+back= new GreenfootImage("char/NickelBack/NickelBack_Back.png");
+down1= new GreenfootImage("char/NickelBack/NickelBack_Down1.png");
+down2= new GreenfootImage("char/NickelBack/NickelBack_Down2.png");
+front= new GreenfootImage("char/NickelBack/NickelBack_Front.png");
+setImage(front);
+
+
+NormalKnight
+left1= new GreenfootImage("/char/NormalKnight/NormalKnight_Left1.png");
+left2= new GreenfootImage("/char/NormalKnight/NormalKnight_Left2.png");
+left= new GreenfootImage("/char/NormalKnight/NormalKnight_Left_Standing.png");
+right1= new GreenfootImage("/char/NormalKnight/NormalKnight_Right1.png");
+right2= new GreenfootImage("/char/NormalKnight/NormalKnight_Right2.png");
+right= new GreenfootImage("/char/NormalKnight/NormalKnight_Right_Standing.png");
+up1= new GreenfootImage("/char/NormalKnight/NormalKnight_Up1.png");
+up2= new GreenfootImage("/char/NormalKnight/NormalKnight_Up2.png");
+back= new GreenfootImage("/char/NormalKnight/NormalKnight_Back.png");
+down1= new GreenfootImage("/char/NormalKnight/NormalKnight_Down1.png");
+down2= new GreenfootImage("/char/NormalKnight/NormalKnight_Down2.png");
+front= new GreenfootImage("/char/NormalKnight/NormalKnight_Front.png");
+setImage(front);
+
+
+Nymph
+left1= new GreenfootImage("char/Nymph/Nymph_Left1.png");
+left2= new GreenfootImage("char/Nymph/Nymph_Left2.png");
+left= new GreenfootImage("char/Nymph/Nymph_Left_Standing.png");
+right1= new GreenfootImage("char/Nymph/Nymph_Right1.png");
+right2= new GreenfootImage("char/Nymph/Nymph_Right2.png");
+right= new GreenfootImage("char/Nymph/Nymph_Right_Standing.png");
+up1= new GreenfootImage("char/Nymph/Nymph_Up1.png");
+up2= new GreenfootImage("char/Nymph/Nymph_Up2.png");
+back= new GreenfootImage("char/Nymph/Nymph_Back.png");
+down1= new GreenfootImage("char/Nymph/Nymph_Down1.png");
+down2= new GreenfootImage("char/Nymph/Nymph_Down2.png");
+front= new GreenfootImage("char/Nymph/Nymph_Front.png");
+setImage(front);
+
+
+Pig
+left1= new GreenfootImage("/char/Pig/Pig_Left1.png");
+left2= new GreenfootImage("/char/Pig/Pig_Left2.png");
+left= new GreenfootImage("/char/Pig/Pig_Left_Standing.png");
+right1= new GreenfootImage("/char/Pig/Pig_Right1.png");
+right2= new GreenfootImage("/char/Pig/Pig_Right2.png");
+right= new GreenfootImage("/char/Pig/Pig_Right_Standing.png");
+up1= new GreenfootImage("/char/Pig/Pig_Up1.png");
+up2= new GreenfootImage("/char/Pig/Pig_Up2.png");
+back= new GreenfootImage("/char/Pig/Pig_Back.png");
+down1= new GreenfootImage("/char/Pig/Pig_Down1.png");
+down2= new GreenfootImage("/char/Pig/Pig_Down2.png");
+front= new GreenfootImage("/char/Pig/Pig_Front.png");
+setImage(front);
+
+
+Pink-BlackOutfit
+left1= new GreenfootImage("char/Pink-BlackOutfit/Pink-BlackOutfit_Left1.png");
+left2= new GreenfootImage("char/Pink-BlackOutfit/Pink-BlackOutfit_Left2.png");
+left= new GreenfootImage("char/Pink-BlackOutfit/Pink-BlackOutfit_Left_Standing.png");
+right1= new GreenfootImage("char/Pink-BlackOutfit/Pink-BlackOutfit_Right1.png");
+right2= new GreenfootImage("char/Pink-BlackOutfit/Pink-BlackOutfit_Right2.png");
+right= new GreenfootImage("char/Pink-BlackOutfit/Pink-BlackOutfit_Right_Standing.png");
+up1= new GreenfootImage("char/Pink-BlackOutfit/Pink-BlackOutfit_Up1.png");
+up2= new GreenfootImage("char/Pink-BlackOutfit/Pink-BlackOutfit_Up2.png");
+back= new GreenfootImage("char/Pink-BlackOutfit/Pink-BlackOutfit_Back.png");
+down1= new GreenfootImage("char/Pink-BlackOutfit/Pink-BlackOutfit_Down1.png");
+down2= new GreenfootImage("char/Pink-BlackOutfit/Pink-BlackOutfit_Down2.png");
+front= new GreenfootImage("char/Pink-BlackOutfit/Pink-BlackOutfit_Front.png");
+setImage(front);
+
+
+Pink-BlueOutfit
+left1= new GreenfootImage("char/Pink-BlueOutfit/Pink-BlueOutfit_Left1.png");
+left2= new GreenfootImage("char/Pink-BlueOutfit/Pink-BlueOutfit_Left2.png");
+left= new GreenfootImage("char/Pink-BlueOutfit/Pink-BlueOutfit_Left_Standing.png");
+right1= new GreenfootImage("char/Pink-BlueOutfit/Pink-BlueOutfit_Right1.png");
+right2= new GreenfootImage("char/Pink-BlueOutfit/Pink-BlueOutfit_Right2.png");
+right= new GreenfootImage("char/Pink-BlueOutfit/Pink-BlueOutfit_Right_Standing.png");
+up1= new GreenfootImage("char/Pink-BlueOutfit/Pink-BlueOutfit_Up1.png");
+up2= new GreenfootImage("char/Pink-BlueOutfit/Pink-BlueOutfit_Up2.png");
+back= new GreenfootImage("char/Pink-BlueOutfit/Pink-BlueOutfit_Back.png");
+down1= new GreenfootImage("char/Pink-BlueOutfit/Pink-BlueOutfit_Down1.png");
+down2= new GreenfootImage("char/Pink-BlueOutfit/Pink-BlueOutfit_Down2.png");
+front= new GreenfootImage("char/Pink-BlueOutfit/Pink-BlueOutfit_Front.png");
+setImage(front);
+
+
+PinkOutfit
+left1= new GreenfootImage("char/PinkOutfit/PinkOutfit_Left1.png");
+left2= new GreenfootImage("char/PinkOutfit/PinkOutfit_Left2.png");
+left= new GreenfootImage("char/PinkOutfit/PinkOutfit_Left_Standing.png");
+right1= new GreenfootImage("char/PinkOutfit/PinkOutfit_Right1.png");
+right2= new GreenfootImage("char/PinkOutfit/PinkOutfit_Right2.png");
+right= new GreenfootImage("char/PinkOutfit/PinkOutfit_Right_Standing.png");
+up1= new GreenfootImage("char/PinkOutfit/PinkOutfit_Up1.png");
+up2= new GreenfootImage("char/PinkOutfit/PinkOutfit_Up2.png");
+back= new GreenfootImage("char/PinkOutfit/PinkOutfit_Back.png");
+down1= new GreenfootImage("char/PinkOutfit/PinkOutfit_Down1.png");
+down2= new GreenfootImage("char/PinkOutfit/PinkOutfit_Down2.png");
+front= new GreenfootImage("char/PinkOutfit/PinkOutfit_Front.png");
+setImage(front);
+
+
+Pirate
+left1= new GreenfootImage("char/Pirate/Pirate_Left1.png");
+left2= new GreenfootImage("char/Pirate/Pirate_Left2.png");
+left= new GreenfootImage("char/Pirate/Pirate_Left_Standing.png");
+right1= new GreenfootImage("char/Pirate/Pirate_Right1.png");
+right2= new GreenfootImage("char/Pirate/Pirate_Right2.png");
+right= new GreenfootImage("char/Pirate/Pirate_Right_Standing.png");
+up1= new GreenfootImage("char/Pirate/Pirate_Up1.png");
+up2= new GreenfootImage("char/Pirate/Pirate_Up2.png");
+back= new GreenfootImage("char/Pirate/Pirate_Back.png");
+down1= new GreenfootImage("char/Pirate/Pirate_Down1.png");
+down2= new GreenfootImage("char/Pirate/Pirate_Down2.png");
+front= new GreenfootImage("char/Pirate/Pirate_Front.png");
+setImage(front);
+
+
+PurpleDress
+left1= new GreenfootImage("char/PurpleDress/PurpleDress_Left1.png");
+left2= new GreenfootImage("char/PurpleDress/PurpleDress_Left2.png");
+left= new GreenfootImage("char/PurpleDress/PurpleDress_Left_Standing.png");
+right1= new GreenfootImage("char/PurpleDress/PurpleDress_Right1.png");
+right2= new GreenfootImage("char/PurpleDress/PurpleDress_Right2.png");
+right= new GreenfootImage("char/PurpleDress/PurpleDress_Right_Standing.png");
+up1= new GreenfootImage("char/PurpleDress/PurpleDress_Up1.png");
+up2= new GreenfootImage("char/PurpleDress/PurpleDress_Up2.png");
+back= new GreenfootImage("char/PurpleDress/PurpleDress_Back.png");
+down1= new GreenfootImage("char/PurpleDress/PurpleDress_Down1.png");
+down2= new GreenfootImage("char/PurpleDress/PurpleDress_Down2.png");
+front= new GreenfootImage("char/PurpleDress/PurpleDress_Front.png");
+setImage(front);
+
+
+RedBandana
+left1= new GreenfootImage("char/RedBandana/RedBandana_Left1.png");
+left2= new GreenfootImage("char/RedBandana/RedBandana_Left2.png");
+left= new GreenfootImage("char/RedBandana/RedBandana_Left_Standing.png");
+right1= new GreenfootImage("char/RedBandana/RedBandana_Right1.png");
+right2= new GreenfootImage("char/RedBandana/RedBandana_Right2.png");
+right= new GreenfootImage("char/RedBandana/RedBandana_Right_Standing.png");
+up1= new GreenfootImage("char/RedBandana/RedBandana_Up1.png");
+up2= new GreenfootImage("char/RedBandana/RedBandana_Up2.png");
+back= new GreenfootImage("char/RedBandana/RedBandana_Back.png");
+down1= new GreenfootImage("char/RedBandana/RedBandana_Down1.png");
+down2= new GreenfootImage("char/RedBandana/RedBandana_Down2.png");
+front= new GreenfootImage("char/RedBandana/RedBandana_Front.png");
+setImage(front);
+
+
+RedBlueBandana
+left1= new GreenfootImage("char/RedBlueBandana/RedBlueBandana_Left1.png");
+left2= new GreenfootImage("char/RedBlueBandana/RedBlueBandana_Left2.png");
+left= new GreenfootImage("char/RedBlueBandana/RedBlueBandana_Left_Standing.png");
+right1= new GreenfootImage("char/RedBlueBandana/RedBlueBandana_Right1.png");
+right2= new GreenfootImage("char/RedBlueBandana/RedBlueBandana_Right2.png");
+right= new GreenfootImage("char/RedBlueBandana/RedBlueBandana_Right_Standing.png");
+up1= new GreenfootImage("char/RedBlueBandana/RedBlueBandana_Up1.png");
+up2= new GreenfootImage("char/RedBlueBandana/RedBlueBandana_Up2.png");
+back= new GreenfootImage("char/RedBlueBandana/RedBlueBandana_Back.png");
+down1= new GreenfootImage("char/RedBlueBandana/RedBlueBandana_Down1.png");
+down2= new GreenfootImage("char/RedBlueBandana/RedBlueBandana_Down2.png");
+front= new GreenfootImage("char/RedBlueBandana/RedBlueBandana_Front.png");
+setImage(front);
+
+
+RedDress
+left1= new GreenfootImage("char/RedDress/RedDress_Left1.png");
+left2= new GreenfootImage("char/RedDress/RedDress_Left2.png");
+left= new GreenfootImage("char/RedDress/RedDress_Left_Standing.png");
+right1= new GreenfootImage("char/RedDress/RedDress_Right1.png");
+right2= new GreenfootImage("char/RedDress/RedDress_Right2.png");
+right= new GreenfootImage("char/RedDress/RedDress_Right_Standing.png");
+up1= new GreenfootImage("char/RedDress/RedDress_Up1.png");
+up2= new GreenfootImage("char/RedDress/RedDress_Up2.png");
+back= new GreenfootImage("char/RedDress/RedDress_Back.png");
+down1= new GreenfootImage("char/RedDress/RedDress_Down1.png");
+down2= new GreenfootImage("char/RedDress/RedDress_Down2.png");
+front= new GreenfootImage("char/RedDress/RedDress_Front.png");
+setImage(front);
+
+
+RedHairGirl
+left1= new GreenfootImage("char/RedHairGirl/RedHair_Left1.png");
+left2= new GreenfootImage("char/RedHairGirl/RedHair_Left2.png");
+left= new GreenfootImage("char/RedHairGirl/RedHair_Left_Standing.png");
+right1= new GreenfootImage("char/RedHairGirl/RedHair_Right1.png");
+right2= new GreenfootImage("char/RedHairGirl/RedHair_Right2.png");
+right= new GreenfootImage("char/RedHairGirl/RedHair_Right_Standing.png");
+up1= new GreenfootImage("char/RedHairGirl/RedHair_Up1.png");
+up2= new GreenfootImage("char/RedHairGirl/RedHair_Up2.png");
+back= new GreenfootImage("char/RedHairGirl/RedHair_Back.png");
+down1= new GreenfootImage("char/RedHairGirl/RedHair_Down1.png");
+down2= new GreenfootImage("char/RedHairGirl/RedHair_Down2.png");
+front= new GreenfootImage("char/RedHairGirl/RedHair_Front.png");
+setImage(front);
+
+
+RedJacket
+left1= new GreenfootImage("char/RedJacket/RedJacket_Left1.png");
+left2= new GreenfootImage("char/RedJacket/RedJacket_Left2.png");
+left= new GreenfootImage("char/RedJacket/RedJacket_Left_Standing.png");
+right1= new GreenfootImage("char/RedJacket/RedJacket_Right1.png");
+right2= new GreenfootImage("char/RedJacket/RedJacket_Right2.png");
+right= new GreenfootImage("char/RedJacket/RedJacket_Right_Standing.png");
+up1= new GreenfootImage("char/RedJacket/RedJacket_Up1.png");
+up2= new GreenfootImage("char/RedJacket/RedJacket_Up2.png");
+back= new GreenfootImage("char/RedJacket/RedJacket_Back.png");
+down1= new GreenfootImage("char/RedJacket/RedJacket_Down1.png");
+down2= new GreenfootImage("char/RedJacket/RedJacket_Down2.png");
+front= new GreenfootImage("char/RedJacket/RedJacket_Front.png");
+setImage(front);
+
+
+Sephiroth
+left1= new GreenfootImage("char/Sephiroth/Sephiroth_Left1.png");
+left2= new GreenfootImage("char/Sephiroth/Sephiroth_Left2.png");
+left= new GreenfootImage("char/Sephiroth/Sephiroth_Left_Standing.png");
+right1= new GreenfootImage("char/Sephiroth/Sephiroth_Right1.png");
+right2= new GreenfootImage("char/Sephiroth/Sephiroth_Right2.png");
+right= new GreenfootImage("char/Sephiroth/Sephiroth_Right_Standing.png");
+up1= new GreenfootImage("char/Sephiroth/Sephiroth_Up1.png");
+up2= new GreenfootImage("char/Sephiroth/Sephiroth_Up2.png");
+back= new GreenfootImage("char/Sephiroth/Sephiroth_Back.png");
+down1= new GreenfootImage("char/Sephiroth/Sephiroth_Down1.png");
+down2= new GreenfootImage("char/Sephiroth/Sephiroth_Down2.png");
+front= new GreenfootImage("char/Sephiroth/Sephiroth_Front.png");
+setImage(front);
+
+
+Sheep
+left1= new GreenfootImage("/char/Sheep/Sheep_Left1.png");
+left2= new GreenfootImage("/char/Sheep/Sheep_Left2.png");
+left= new GreenfootImage("/char/Sheep/Sheep_Left_Standing.png");
+right1= new GreenfootImage("/char/Sheep/Sheep_Right1.png");
+right2= new GreenfootImage("/char/Sheep/Sheep_Right2.png");
+right= new GreenfootImage("/char/Sheep/Sheep_Right_Standing.png");
+up1= new GreenfootImage("/char/Sheep/Sheep_Up1.png");
+up2= new GreenfootImage("/char/Sheep/Sheep_Up2.png");
+back= new GreenfootImage("/char/Sheep/Sheep_Back.png");
+down1= new GreenfootImage("/char/Sheep/Sheep_Down1.png");
+down2= new GreenfootImage("/char/Sheep/Sheep_Down2.png");
+front= new GreenfootImage("/char/Sheep/Sheep_Front.png");
+setImage(front);
+
+
+Skeleman
+left1= new GreenfootImage("char/Skeleman/Skeleman_Left1.png");
+left2= new GreenfootImage("char/Skeleman/Skeleman_Left2.png");
+left= new GreenfootImage("char/Skeleman/Skeleman_Left_Standing.png");
+right1= new GreenfootImage("char/Skeleman/Skeleman_Right1.png");
+right2= new GreenfootImage("char/Skeleman/Skeleman_Right2.png");
+right= new GreenfootImage("char/Skeleman/Skeleman_Right_Standing.png");
+up1= new GreenfootImage("char/Skeleman/Skeleman_Up1.png");
+up2= new GreenfootImage("char/Skeleman/Skeleman_Up2.png");
+back= new GreenfootImage("char/Skeleman/Skeleman_Back.png");
+down1= new GreenfootImage("char/Skeleman/Skeleman_Down1.png");
+down2= new GreenfootImage("char/Skeleman/Skeleman_Down2.png");
+front= new GreenfootImage("char/Skeleman/Skeleman_Front.png");
+setImage(front);
+
+
+WinterSoldier
+left1= new GreenfootImage("char/WinterSoldier/WinterSoldier_Left1.png");
+left2= new GreenfootImage("char/WinterSoldier/WinterSoldier_Left2.png");
+left= new GreenfootImage("char/WinterSoldier/WinterSoldier_Left_Standing.png");
+right1= new GreenfootImage("char/WinterSoldier/WinterSoldier_Right1.png");
+right2= new GreenfootImage("char/WinterSoldier/WinterSoldier_Right2.png");
+right= new GreenfootImage("char/WinterSoldier/WinterSoldier_Right_Standing.png");
+up1= new GreenfootImage("char/WinterSoldier/WinterSoldier_Up1.png");
+up2= new GreenfootImage("char/WinterSoldier/WinterSoldier_Up2.png");
+back= new GreenfootImage("char/WinterSoldier/WinterSoldier_Back.png");
+down1= new GreenfootImage("char/WinterSoldier/WinterSoldier_Down1.png");
+down2= new GreenfootImage("char/WinterSoldier/WinterSoldier_Down2.png");
+front= new GreenfootImage("char/WinterSoldier/WinterSoldier_Front.png");
+setImage(front);
+
+
+YellowVest
+left1= new GreenfootImage("char/YellowVest/YellowVest_Left1.png");
+left2= new GreenfootImage("char/YellowVest/YellowVest_Left2.png");
+left= new GreenfootImage("char/YellowVest/YellowVest_Left_Standing.png");
+right1= new GreenfootImage("char/YellowVest/YellowVest_Right1.png");
+right2= new GreenfootImage("char/YellowVest/YellowVest_Right2.png");
+right= new GreenfootImage("char/YellowVest/YellowVest_Right_Standing.png");
+up1= new GreenfootImage("char/YellowVest/YellowVest_Up1.png");
+up2= new GreenfootImage("char/YellowVest/YellowVest_Up2.png");
+back= new GreenfootImage("char/YellowVest/YellowVest_Back.png");
+down1= new GreenfootImage("char/YellowVest/YellowVest_Down1.png");
+down2= new GreenfootImage("char/YellowVest/YellowVest_Down2.png");
+front= new GreenfootImage("char/YellowVest/YellowVest_Front.png");
+setImage(front);

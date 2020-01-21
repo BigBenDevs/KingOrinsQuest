@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Fireball
+comment0.text=\r\n\ Fireball\ is\ a\ fire\ magic\ attack.\ \r\n\ \r\n\ @author\ Anthony\ Neeser\r\n\ @version\ 4/30/18\r\n
+comment1.params=s\ r\ w\ h\ countdown
+comment1.target=Fireball(int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Fireball\ constructor\ sets\ initial\ values\ for\ fireball.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Fireball\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ initializeImages()
+comment3.text=\r\n\ Initializes\ images\ and\ sets\ starting\ image\ for\ fireball.\r\n
+numComments=4

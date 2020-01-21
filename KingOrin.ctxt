@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=KingOrin
+comment0.text=\r\n\ This\ is\ the\ sad\ king.\r\n\ \r\n\ @author\ (Ben\ Presley)\ \r\n\ @version\ (5/9/18)\r\n
+comment1.params=
+comment1.target=KingOrin()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ KingOrin\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ dialog1()
+comment4.params=
+comment4.target=void\ dialog2()
+comment5.params=
+comment5.target=boolean\ worldDialog()
+comment5.text=\r\n\ Checks\ if\ a\ world\ dialog\ is\ in\ the\ world.\ \r\n
+numComments=6

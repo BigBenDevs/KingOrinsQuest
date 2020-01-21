@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=InstructionDialogBorder
+comment0.text=\r\n\ Border\ for\ world\ dialog\ boxes.\r\n\ \r\n\ @author\ Anthony\ Neeser\r\n\ @version\ 5/6/18\r\n
+comment1.params=width\ height
+comment1.target=InstructionDialogBorder(int,\ int)
+comment1.text=\r\n\ InstructionDialogBorder\ displays\ a\ border\ around\ the\ instructions\ when\ player\ presses\ "i".\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ DialogBox\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Shadow
+comment0.text=\r\n\ Shadow\ is\ used\ under\ NPCs\ to\ add\ a\ little\ realism.\r\n\ \r\n\ @author\ Anthony\ Neeser\r\n\ @version\ 4/30/18\r\n
+comment1.params=sW\ sH\ xOff\ yOff\ w\ h
+comment1.target=Shadow(int,\ int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Shadow\ constructor\ sets\ values\ for\ x,\ y,\ width,\ height,\ of\ shadows,\ and\ sets\ their\ image.\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Shadow\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

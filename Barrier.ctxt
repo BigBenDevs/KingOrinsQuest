@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Barrier
+comment0.text=\r\n\ Barrier\ class\ acts\ as\ a\ border\ for\ NPC\ and\ player\ movement.\ \ Each\ barrier\ is\ placed\ UNDER\ the\ world,\ and\ detected\ by\ player\ and\ NPC\ actors\r\n\ \r\n\ @author\ (Benjamin\ Presley)\ \r\n\ @version\ (04/30/18)\r\n
+comment1.params=
+comment1.target=Barrier()
+numComments=2

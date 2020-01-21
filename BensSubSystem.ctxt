@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=BensSubSystem
+comment0.text=\r\n\ This\ will\ be\ the\ loot\ spawning\ subsytem.\ \ This\ will\ generate\ loot\ items\ throughout\ each\ world\ at\ random\ locations.\r\n\ \r\n\ @author\ (Benjamin\ Presley)\ \r\n\ @version\ (04/30/2018)\r\n
+comment1.params=
+comment1.target=BensSubSystem()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ BensSubSystem\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

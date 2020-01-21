@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=FriendlyNPC
+comment0.text=\r\n\ Superclass\ of\ friendly\ NPCs.\ Acts\ as\ a\ separator\ to\ keep\ enemy\ npcs\ and\ friendly\ npcs\ separate\ in\ the\ actor\ tree.\r\n\ Also\ used\ to\ grant\ generic\ dialog\ and\ some\ specific\ dialog\ to\ npcs\ who\ call\ its\ methods.\ \r\n\ \r\n\ @author\ Anthony\ Neeser\r\n\ @version\ 4/28/18\r\n
+comment1.params=
+comment1.target=void\ genericDialog()
+comment1.text=\r\n\ Generic\ dialog\ is\ basic\ messages\ that\ villagers\ will\ say\ when\ you\ click\ on\ them.\ A\ random\ message\ will\ display\ with\ each\ click.\r\n
+comment2.params=option
+comment2.target=void\ genericDialog(java.lang.String)
+comment2.text=\r\n\ This\ generic\ dialog\ method\ allows\ for\ villagers\ to\ recomment\ buying\ health\ potions\ if\ your\ health\ is\ low,\r\n\ and\ for\ specific\ npcs\ to\ say\ personalized\ messages\ to\ the\ player.\ \r\n
+comment3.params=
+comment3.target=boolean\ worldDialog()
+comment3.text=\r\n\ Checks\ if\ a\ world\ dialog\ is\ in\ the\ world.\ \r\n
+comment4.params=
+comment4.target=boolean\ genericWorldDialog()
+comment4.text=\r\n\ Checks\ if\ a\ generic\ world\ dialog\ is\ in\ the\ world.\ \r\n
+comment5.params=
+comment5.target=boolean\ shopDialog()
+comment5.text=\r\n\ Checks\ if\ a\ shop\ dialog\ is\ in\ the\ world.\ \r\n
+numComments=6

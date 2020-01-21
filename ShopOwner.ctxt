@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ShopOwner
+comment0.text=\r\n\ This\ ShopOwner\ is\ a\ resident\ of\ MainWorld.\ \r\n\ \r\n\ @author\ Matt\ Marler\r\n\ @version\ 5/1/18\r\n
+comment1.params=
+comment1.target=ShopOwner()
+comment1.text=\r\n\ ShopOwner\ constructor.\ Initializes\ image\ variables\ and\ sets\ inital\ image.\r\n
+comment2.params=
+comment2.target=void\ interact()
+comment2.text=\r\n\ Allows\ player\ to\ open\ shop\ dialog\ to\ purchase\ items.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ ShopOwner\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BowIcon
+comment0.text=\r\n\ Bow\ icon\ allows\ to\ buy\ a\ bow\ from\ a\ shop.\ \r\n\ \r\n\ @author\ Anthony\ Neeser\ (Art\ by\ Ben\ Presley)\r\n\ @version\ 5/7/18\r\n
+comment1.params=
+comment1.target=BowIcon()
+comment1.text=\r\n\ \ BowIcon\ constructor\ sets\ image\ for\ BowIcon.\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ BowIcon\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ bow()
+comment3.text=\r\n\ If\ clicked\ in\ shop,\ BowIcon\ will\ add\ a\ bow\ to\ your\ inventory,\ if\ you\ have\ enough\ gold,\ \r\n\ and\ if\ you\ don't\ already\ have\ a\ bow.\ Pressing\ escape\ will\ remove\ BowIcon\ from\ screen.\ \r\n
+numComments=4

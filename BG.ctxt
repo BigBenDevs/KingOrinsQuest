@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=BG
+comment0.text=\r\n\ This\ is\ a\ divider\ for\ world\ background\ images\r\n\ \r\n\ @author\ (Anthony\ Neeser\ )\ \r\n\ @version\ (04/30/18)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ This\ is\ the\ divider\ class\ for\ the\ background\ image\ classes.\ \ The\ background\ images\ are\ a\ replacement\ for\ \r\n\ the\ large\ ammount\ of\ objects\ used\ to\ create\ each\ world.\ \ This\ saves\ on\ memory\ usage\ and\ speeds\ up\ the\ \r\n\ game.\r\n
+numComments=2

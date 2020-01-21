@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ShieldIcon
+comment0.text=\r\n\ Shield\ icon\ allows\ to\ buy\ armor\ from\ a\ shop.\r\n\ \r\n\ @author\ Anthony\ Neeser\ (Art\ by\ Ben\ Presley)\r\n\ @version\ 5/7/18\r\n
+comment1.params=
+comment1.target=ShieldIcon()
+comment1.text=\r\n\ \ ShieldIcon\ constructor\ sets\ image\ for\ ShieldIcon.\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ ShieldIcon\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ shield()
+comment3.text=\r\n\ If\ clicked\ in\ shop,\ the\ ShieldIcon\ will\ add\ 100\ armor\ to\ your\ character,\ if\ you\ have\ enough\ gold\r\n\ and\ you\ currently\ have\ 0\ armor.\ If\ you\ press\ escape,\ ShieldIcon\ is\ removed\ from\ the\ screen.\ \r\n
+numComments=4

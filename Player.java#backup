@@ -1,0 +1,365 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Player here.
+ * 
+ * @author (Benjamin Presley) 
+ * @version (04/30/2018)
+ */
+public class Player extends BensSubSystem
+{
+    private int imageCount, stopped;
+
+    private GreenfootImage left1, left2, right1, right2, up1, up2, down1, down2, front, back, right, left, dead, standingFront, standingBack, standingRight, standingLeft;;
+
+    //Track world
+    public int spawn = 0;
+    
+    //Track health
+    //public int health;
+
+    private int width = 64;
+    private int height = 64;
+
+    //Character movement images
+    //private final GreenfootImage rightIdle = setImage(getSprite(new GreenfootImage("char/SpriteSheet1.png"), 32, 64, 64, 96, 64, 64));
+
+    //Shadow specifications
+    private int shadowImageWidth = 64;
+    private int shadowImageHeight = 128;
+    private int shadowX = 17;
+    private int shadowY = 82;
+    private int shadowWidth = 35;
+    private int shadowHeight = 20;
+
+    /**
+     *  Sets playable character images, and . 
+     */
+    public Player() 
+    {
+        left1= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Left1.png");
+        left2= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Left2.png");
+        left= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Left_Standing.png");
+        right1= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Right1.png");
+        right2= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Right2.png");
+        right= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Right_Standing.png");
+        up1= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Up1.png");
+        up2= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Up2.png");
+        back= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Back.png");
+        down1= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Down1.png");
+        down2= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Down2.png");
+        front= new GreenfootImage("char/GreenShirtGuy/GreenShirtGuy_Front.png");
+        dead = new GreenfootImage("char/Skeleman/Skeleman_Front.png");
+        left1.scale(height,width);
+        left2.scale(height,width);
+        left.scale(height,width);
+        right1.scale(height,width);
+        right2.scale(height,width);
+        right.scale(height,width);
+        up1.scale(height,width);
+        up2.scale(height,width);
+        back.scale(height,width);
+        down1.scale(height,width);
+        down2.scale(height,width);
+        front.scale(height,width);
+        dead.scale(height,width);
+        setImage(front);
+    }
+
+    /**
+     * Sets and scales each image, and sets image change delay. All values passed from subclasses. 
+     * @param l1        First walking left image.
+     * @param l2        Second walking left image.
+     * @param r1        First walking right image.
+     * @param r2        Second walking right image.
+     * @param u1        First walking up image.
+     * @param u2        Second walking up image.
+     * @param d1        First NPC walking down image.
+     * @param d2        Second NPC walking down image.
+     * @param front     NPC facing front image.
+     * @param back      NPC facing away image.
+     * @param imgCount  Set image delay during animation.
+     * @param width     Width of image.
+     * @param height    Height of image.
+     */
+    public void imageChange(GreenfootImage l1, GreenfootImage l2, GreenfootImage r1, GreenfootImage r2, GreenfootImage u1, GreenfootImage u2, 
+                            GreenfootImage d1, GreenfootImage d2, GreenfootImage front, GreenfootImage back, GreenfootImage standLeft, 
+                            GreenfootImage standRight,int imgCount, int width, int height)
+    {
+        //Set pictures
+        left1 = l1;
+        left2 = l2;
+        right1 = r1;
+        right2 = r2;
+        up1 = u1;
+        up2 = u2;
+        down1 = d1;
+        down2 = d2;
+        standingFront = front; 
+        standingBack = back;
+        standingLeft = standLeft;
+        standingRight = standRight;
+
+        //actorImageCount = imgCount;
+        // Resize to match world size
+        left1.scale(width,height);
+        left2.scale(width,height);
+        right1.scale(width,height);
+        right2.scale(width,height);
+        up1.scale(width,height);
+        up2.scale(width,height);
+        down1.scale(width,height);
+        down2.scale(width,height);
+        standingFront.scale(width,height);
+        standingBack.scale(width,height);
+        standingRight.scale(width,height);
+        standingLeft.scale(width,height);
+    }
+
+    /**
+     * Act - do whatever the Player wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        getWorld().addObject(new Shadow(shadowImageWidth, shadowImageHeight, shadowX, shadowY, shadowWidth, shadowHeight), getX(), getY());
+        if(imageCount ==10)
+        {
+            imageCount = 0;
+        }
+        checkKeys();
+        imageCount++;
+        stopAtBarrier();
+        enterDoor();
+        shoot();
+        dying();
+        generateDialog(
+            "Health: "+MainWorld.playerHealth,
+            "Arrows: "+MainWorld.arrowCount,
+            "Health: "+MainWorld.playerHealth,
+            "Health: "+MainWorld.playerHealth,
+            "Health: "+MainWorld.playerHealth);
+    }   
+
+    /**
+     * Method checks for key presses to move character or interact with world.
+     */
+    private void checkKeys() //added WASD for my own sanity -James
+    {
+        if(Greenfoot.isKeyDown("up")||Greenfoot.isKeyDown("w"))
+        {
+            setLocation(getX(), getY()-1);
+            if(imageCount == 1)
+            {
+                if(getImage() == up1)
+                {
+                    setImage(up2);
+                }
+                else
+                {
+                    setImage(up1);
+                }
+                stopped = 1;
+            }
+        }
+        if(Greenfoot.isKeyDown("down")||Greenfoot.isKeyDown("s"))
+        {
+            setLocation(getX(), getY()+1);
+            if(imageCount == 1)
+            {
+                if(getImage() == down1)
+                {
+                    setImage(down2);
+                }
+                else
+                {
+                    setImage(down1);
+                }
+                stopped = 2;
+            }
+        }
+        if(Greenfoot.isKeyDown("right")||Greenfoot.isKeyDown("d"))
+        {
+            setLocation(getX()+1, getY());
+            if(imageCount == 1)
+            {
+                if(getImage() == right1)
+                {
+                    setImage(right2);
+                }
+                else
+                {
+                    setImage(right1);
+                }
+                stopped = 3;
+            }
+        }
+        if(Greenfoot.isKeyDown("left")||Greenfoot.isKeyDown("a"))
+        {
+            setLocation(getX()-1, getY());
+            if(imageCount == 1)
+            {
+                if(getImage() == left1)
+                {
+                    setImage(left2);
+                }
+                else
+                {
+                    setImage(left1);
+                }
+                stopped = 4;
+            }
+        }
+        if(!Greenfoot.isKeyDown("up")&&!Greenfoot.isKeyDown("down")&&!Greenfoot.isKeyDown("right")&&!Greenfoot.isKeyDown("left"))
+        {
+            if(!Greenfoot.isKeyDown("w")&&!Greenfoot.isKeyDown("a")&&!Greenfoot.isKeyDown("s")&&!Greenfoot.isKeyDown("d"))
+            {
+                switch(stopped)
+                {
+                    case 1: setImage(back); break;
+                    case 2: setImage(front); break;
+                    case 3: setImage(right); break;
+                    case 4: setImage(left); break;
+                }
+            }
+        }
+        if(Greenfoot.isKeyDown("i"))
+        {
+            Inventory inventory = new Inventory();
+            getWorld().addObject(inventory,513,459);
+        }
+    }
+
+    /**
+     * Method identifies if player is touching barrier object and prevents player
+     * from moving further in the direction of the barrier.
+     */
+    public void stopAtBarrier()
+    {
+        if ( isTouching(Barrier.class) && Greenfoot.isKeyDown("up") || isTouching(Barrier.class) && Greenfoot.isKeyDown("w"))
+        {
+            setLocation(getX(), getY()+1);
+        } 
+        if ( isTouching(Barrier.class) && Greenfoot.isKeyDown("down") || isTouching(Barrier.class) && Greenfoot.isKeyDown("s"))
+        {
+            setLocation(getX(), getY()-1);
+        } 
+        if ( isTouching(Barrier.class) && Greenfoot.isKeyDown("left") || isTouching(Barrier.class) && Greenfoot.isKeyDown("a"))
+        {
+            setLocation(getX()+1, getY());
+        } 
+        if (isTouching(Barrier.class) && Greenfoot.isKeyDown("right") || isTouching(Barrier.class) && Greenfoot.isKeyDown("d"))
+        {
+            setLocation(getX()-1, getY());
+        } 
+    }
+
+    /**
+     * Identifies when the player has made contact with the door entrance and transfers the 
+     * player to the appropriate world.  Also starts the playing of the music.
+     */
+    public void enterDoor()
+    {
+        if( isTouching(ShopDoorEntrance.class))
+        {
+            MainWorld.spawn = 1;
+            MainWorld.myworldMusic.pause();
+            Greenfoot.setWorld(new Shop());
+            if(MainWorld.mute != 1)
+            {
+                MainWorld.caveworldMusic.playLoop();
+            }
+        }
+        if ( isTouching(ShopDoorExit.class))
+        {
+            MainWorld.spawn = 2;
+            MainWorld.caveworldMusic.pause();
+            Greenfoot.setWorld(new MyWorld());
+            if(MainWorld.mute !=1)
+            {
+                MainWorld.myworldMusic.playLoop();
+            }
+        }
+        //Below is the portion of the spawn function for detecting if player is moving from one tile to the next.  
+        //If moving LEFT to RIGHT or vise versa, then "playerX" needs to be 10 pixels off the edge of the next world.
+        //If moving TOP to BOTTOM or vise versa, then "playerX" needs to be "getX()"
+        //The same idea applies to "playerY".  
+        //Spawn needs to be set to a new int.  1 and 2 are used to transfer from the main world to the shop.  DO NOT USE THOSE.  
+        if ( getX() == 0)
+        {
+            MainWorld.playerX = 1075;
+            MainWorld.playerY = getY();
+            MainWorld.spawn = 3;
+            Greenfoot.setWorld(new World13());
+        }
+        if ( getX() == 1079)
+        {
+            MainWorld.playerX = 10;
+            MainWorld.playerY = getY();
+            MainWorld.spawn = 4;
+            Greenfoot.setWorld(new MyWorld());
+        }
+        if ( getY() == 0)
+        {
+            MainWorld.playerX = getX();
+            MainWorld.playerY = 910;
+            MainWorld.spawn = 3;
+            Greenfoot.setWorld(new World13());
+        }
+        if ( getY() == 918)
+        {
+            MainWorld.playerX = getX();
+            MainWorld.playerY = 10;
+            MainWorld.spawn = 4;
+            Greenfoot.setWorld(new MyWorld());
+        }
+
+    }
+
+    public void dying()
+    {
+        if(MainWorld.playerHealth == 0)
+        {
+            setImage(dead);
+            Greenfoot.stop();
+        }
+    }
+    
+    //Shoot variables
+    private String ammo = "arrow";
+    private int reloadTime = 50;
+    private int shootCounter;
+    private int speed = 10;
+    private int ammoWidth = 18;
+    private int ammoHeight = 7;
+    private int countdown = 25;
+    private int clickedX;
+    private int clickedY;
+    private void shoot()
+    {
+        if(Greenfoot.mouseClicked(null))
+        {
+            clickedX = Greenfoot.getMouseInfo().getX();
+            clickedY = Greenfoot.getMouseInfo().getY();
+
+            double dx = clickedX -  getX();
+            double dy = clickedY - getY();
+            double rotation = Math.atan2(dy,dx)*180.0/Math.PI;
+            int miss = Greenfoot.getRandomNumber(17)-8;
+            if(shootCounter>reloadTime)
+            {
+                switch(ammo)
+                {
+                    case "fireball": getWorld().addObject(new Fireball(speed, (int)rotation, ammoWidth, ammoHeight, countdown), getX(), getY()); break;
+                    case "iceball": getWorld().addObject(new Iceball(speed, (int)rotation, ammoWidth, ammoHeight, countdown), getX(), getY()); break;
+                    case "arrow": getWorld().addObject(new PlayerArrow(speed, (int)rotation, ammoWidth, ammoHeight, countdown), getX(), getY()); break;
+                    case "spear": getWorld().addObject(new Spear(speed, (int)rotation, ammoWidth, ammoHeight, countdown), getX(), getY()); break;
+
+                }
+                shootCounter=0;
+                MainWorld.arrowCount--;
+            }
+        }
+        shootCounter++;
+    }
+}

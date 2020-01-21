@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Treetop
+comment0.text=\r\n\ This\ is\ the\ treetop\ constructor.\ \ it\ is\ used\ so\ that\ the\ player\ can\ walk\ behind\ the\ top\ of\ the\ tree,\ while\r\n\ not\ being\ able\ to\ walk\ behind\ the\ tree-trunk.\ \ This\ adds\ a\ level\ of\ 3d\ detail\ to\ the\ world.\ \ \r\n\ \r\n\ @author\ (Benjamin\ Presley)\ \r\n\ @version\ (04/26/2018)\r\n
+comment1.params=
+comment1.target=Treetop()
+numComments=2
